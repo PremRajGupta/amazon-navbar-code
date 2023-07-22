@@ -1,0 +1,134 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial;
+    border: border-box;
+}
+/* ------Box1-------- */
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("image/amazon_logo.png");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+    /* height: 51px; */
+}
+/* -------Box2---------- */
+
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+}
+.add-second{
+    margin-left: 3px;    
+}
+/* ------Box3-------- */
+.nav-search{
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 600px;
+    border-radius: 4px;
+    background-color: #F3A847;
+}
+
+.nav-search:hover{
+    border: 2px solid #F3A847;
+}
+
+#select-option{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #f3f3f3;
+    text-align: center;
+    height: 40px;
+    width: 50px;
+    border: none;
+}
+#search-box{
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+}
+.search-icon{
+    width: 45px;
+    height: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.2rem;
+}
+/* ------Box4-------- */
+.nav-flag{
+    display: flex;
+}
+.flag-icon{
+    width: 20px;
+    height: 18px;
+    background-image: url("image/india.png");
+    background-size: cover;
+}
+
+#lang{
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+/* ------Box5----- */
+
+.login-name{
+    font-size: 0.7rem;
+    margin-left: 4px;
+}
+#log-in{
+    border: none;
+    background-color: #0f1111;
+    color: white;
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+
+/* --------Box 6--------- */
+.return-name{
+    font-size: 0.7rem;
+}
+.order-name{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* ------Box 7------ */
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-weight: 700;
+    font-size: 0.85rem;
+}
